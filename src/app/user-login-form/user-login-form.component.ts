@@ -1,14 +1,8 @@
 import { Component, Input, OnInit } from '@angular/core';
-
 import { Router } from '@angular/router';
-
 import { FetchApiDataService } from '../fetch-api-data.service';
-
 import { MatDialogRef } from '@angular/material/dialog';
-
 import { MatSnackBar } from '@angular/material/snack-bar';
-
-
 
 @Component({
   selector: 'app-user-login-form',
