@@ -4,7 +4,7 @@ single-page application will provide users with access to information about diff
 directors, and genres. Users will be able to sign up, update their personal information, and 
 create a list of their favorite movies!
 
-[Click here](https://myflixreactapp.netlify.app/) to check it out!
+[Click here](https://tristan-lewis.github.io/myFlix-Angular-/welcome) to check it out!
 
 ## Dependencies
 - "@angular/animations": "^16.2.0"
