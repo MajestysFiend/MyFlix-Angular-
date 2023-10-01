@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 import { FetchApiDataService } from '../fetch-api-data.service';
+import { formatDate } from '@angular/common';
 
 @Component({
   selector: 'app-user-profile',
@@ -8,9 +9,9 @@ import { FetchApiDataService } from '../fetch-api-data.service';
 })
 export class UserProfileComponent {
 
-  constructor(public fetchApiData: FetchApiDataService) { }
+  user: any = {}
 
-  users: any[] = []
+  constructor(public fetchApiData: FetchApiDataService,) { }
 
   ngOnInit(): void {
     this.getUser();
@@ -18,9 +19,9 @@ export class UserProfileComponent {
 
   getUser(): void {
     this.fetchApiData.getOneUser().subscribe((resp: any) => {
-      this.users = resp;
-      console.log(this.users);
-      return this.users;
+      this.user = resp;
+      console.log(this.user);
+      return this.user;
     });
   }
 
