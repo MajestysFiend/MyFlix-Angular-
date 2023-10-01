@@ -53,7 +53,7 @@ const appRoutes: Routes = [
     FormsModule,
     MatIconModule,
     MatGridListModule,
-    MatToolbarModule
+    MatToolbarModule,
 
   ],
   providers: [],
