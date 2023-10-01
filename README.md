@@ -1,3 +1,7 @@
+<h1 align="center">MyFlix Angular</h1>
+
+![myflixAngular](https://github.com/Tristan-Lewis/myFlix-Angular-/assets/94727522/b65664bf-1e4c-4daf-a049-847b990de4e2)
+
 
 Using Angular alongside [my custom API](https://github.com/MajestysFiend/myFlix-API), this 
 single-page application will provide users with access to information about different movies, 
