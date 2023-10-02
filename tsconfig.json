@@ -30,4 +30,10 @@
     "strictInputAccessModifiers": true,
     "strictTemplates": true,
   },
+  "typedocOptions": {
+    "entryPoints": [
+      "src/"
+    ],
+    "out": "docs"
+  }
 }
